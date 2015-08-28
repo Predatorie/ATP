@@ -1,0 +1,41 @@
+###############################################################################
+# NETHook function table			
+###############################################################################
+#
+# Name		: ATP.Shell.ft
+# NETHook 	: ATP.Shell.dll
+# Date		: 
+# Author	: 
+# Notes		: MAKE SURE TO RENAME 'Nethook' with the name of your DLL
+# Language	: C#
+#
+###############################################################################
+
+
+######################
+# ASSIGN A UNIQUE NAME
+######################
+APPLICATION "__ATP2017__"
+
+######################
+# NETHook LOCATION
+######################
+#
+# Update paths below to match your install path and project name.
+FUNC_DLL   "CHOOKS\ATP2017\ATP.Shell.dll"
+RES_DLL    "SAME"
+dnRES_NAME "ATP.Shell.FunctionTable.Resource"
+CATEGORY   "MY ADDON"
+
+##############################################################################
+# Public functions here
+##############################################################################
+#
+# The main system entry point defined in NethookMain.cs
+FUNCTION NET "Run"
+    dnSPNG "Run16"
+    dnLPNG "Run24"
+    dnTIP  "RunTip"
+END_FUNCTION
+
+# EOF
