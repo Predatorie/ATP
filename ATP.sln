@@ -1,13 +1,21 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATP.Shell", "ATP.Shell\ATP.Shell.csproj", "{998CA388-27D8-44C0-8746-874A4A84D173}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATP.Infrastructure", "ATP.Infrastructure\ATP.Infrastructure.csproj", "{5A18A32B-B976-4309-B5BF-07EBC2000218}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATP.Strategy", "ATP.Strategy\ATP.Strategy.csproj", "{D1A5E7DA-A205-4288-AAFA-759CA8E28E0A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependencies", "Dependencies", "{28C78C35-50A7-4551-B111-D6D039B1A707}"
+	ProjectSection(SolutionItems) = preProject
+		D:\Program Files\Mcam2018\ModelessDialogTabHandler.dll = D:\Program Files\Mcam2018\ModelessDialogTabHandler.dll
+		D:\Program Files\Mcam2018\NETAppStaticAPI.dll = D:\Program Files\Mcam2018\NETAppStaticAPI.dll
+		D:\Program Files\Mcam2018\NETHook3_0.dll = D:\Program Files\Mcam2018\NETHook3_0.dll
+		D:\Program Files\Mcam2018\NETHook3_0.xml = D:\Program Files\Mcam2018\NETHook3_0.xml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
